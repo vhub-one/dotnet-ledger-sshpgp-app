@@ -1,0 +1,11 @@
+
+# Build files
+[Bb]in/
+[Oo]bj/
+[Pp]ublish/
+
+# Log files
+[Ll]og/
+
+# User files
+.vs/

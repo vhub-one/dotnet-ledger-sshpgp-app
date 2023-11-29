@@ -1,0 +1,9 @@
+[submodule "modules/dotnet-ledger"]
+	path = modules/dotnet-ledger
+	url = git@github.com:vhub-one/dotnet-ledger.git
+[submodule "modules/dotnet-common"]
+	path = modules/dotnet-common
+	url = git@github.com:vhub-one/dotnet-common.git
+[submodule "modules/dotnet-ssh-agent"]
+	path = modules/dotnet-ssh-agent
+	url = git@github.com:vhub-one/dotnet-ssh-agent.git

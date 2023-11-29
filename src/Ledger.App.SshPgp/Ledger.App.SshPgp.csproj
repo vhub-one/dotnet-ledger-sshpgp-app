@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\modules\dotnet-common\src\Common\Common.csproj" />
+    <ProjectReference Include="..\..\modules\dotnet-ledger\src\Ledger\Ledger.csproj" />
+    <ProjectReference Include="..\..\modules\dotnet-ssh-agent\src\Ssh\Ssh.csproj" />
+  </ItemGroup>
+
+</Project>
