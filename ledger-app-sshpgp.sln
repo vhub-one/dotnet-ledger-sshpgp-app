@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ledger.App.SshPgp", "src\Ledger.App.SshPgp\Ledger.App.SshPgp.csproj", "{29753ACB-CBE4-4536-8C07-8F20A9869ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{16130F51-512E-40BA-AE82-214063A1FE9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ledger", "Ledger", "{F3C75CA7-49EE-4B86-9D87-4329E72344EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{D5D5FF33-2C77-483C-A833-76F682A50B39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "modules\dotnet-common\src\Common\Common.csproj", "{ECE0F488-E355-41C1-8248-EDBC94220EC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ledger", "modules\dotnet-ledger\src\Ledger\Ledger.csproj", "{48DE7D83-3A71-4C96-8B67-C85074E5C7AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ssh", "Ssh", "{C2F7E50F-BA93-449E-9390-D6F8BB92A1FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ssh", "modules\dotnet-ssh-agent\src\Ssh\Ssh.csproj", "{7DCAF0FD-7B0F-4A92-BE1E-D174BC0C90EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29753ACB-CBE4-4536-8C07-8F20A9869ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29753ACB-CBE4-4536-8C07-8F20A9869ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29753ACB-CBE4-4536-8C07-8F20A9869ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29753ACB-CBE4-4536-8C07-8F20A9869ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE0F488-E355-41C1-8248-EDBC94220EC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE0F488-E355-41C1-8248-EDBC94220EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE0F488-E355-41C1-8248-EDBC94220EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE0F488-E355-41C1-8248-EDBC94220EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DE7D83-3A71-4C96-8B67-C85074E5C7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DE7D83-3A71-4C96-8B67-C85074E5C7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DE7D83-3A71-4C96-8B67-C85074E5C7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DE7D83-3A71-4C96-8B67-C85074E5C7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DCAF0FD-7B0F-4A92-BE1E-D174BC0C90EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DCAF0FD-7B0F-4A92-BE1E-D174BC0C90EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DCAF0FD-7B0F-4A92-BE1E-D174BC0C90EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DCAF0FD-7B0F-4A92-BE1E-D174BC0C90EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29753ACB-CBE4-4536-8C07-8F20A9869ED4} = {D5D5FF33-2C77-483C-A833-76F682A50B39}
+		{D5D5FF33-2C77-483C-A833-76F682A50B39} = {F3C75CA7-49EE-4B86-9D87-4329E72344EA}
+		{ECE0F488-E355-41C1-8248-EDBC94220EC7} = {16130F51-512E-40BA-AE82-214063A1FE9A}
+		{48DE7D83-3A71-4C96-8B67-C85074E5C7AA} = {F3C75CA7-49EE-4B86-9D87-4329E72344EA}
+		{7DCAF0FD-7B0F-4A92-BE1E-D174BC0C90EB} = {C2F7E50F-BA93-449E-9390-D6F8BB92A1FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC72F386-0529-49B1-8A70-9AE0DF778024}
+	EndGlobalSection
+EndGlobal

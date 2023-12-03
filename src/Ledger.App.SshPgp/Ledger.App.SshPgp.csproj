@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\modules\dotnet-common\src\Common\Common.csproj" />
-    <ProjectReference Include="..\..\modules\dotnet-ledger\src\Ledger\Ledger.csproj" />
-    <ProjectReference Include="..\..\modules\dotnet-ssh-agent\src\Ssh\Ssh.csproj" />
+    <ProjectReference Include="$(ModulesPath)\dotnet-common\src\Common\Common.csproj" />
+    <ProjectReference Include="$(ModulesPath)\dotnet-ledger\src\Ledger\Ledger.csproj" />
+    <ProjectReference Include="$(ModulesPath)\dotnet-ssh-agent\src\Ssh\Ssh.csproj" />
   </ItemGroup>
 
 </Project>

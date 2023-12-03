@@ -1,0 +1,7 @@
+<Project>
+
+  <PropertyGroup>
+    <ModulesPath>$(MSBuildThisFileDirectory)\modules</ModulesPath>
+  </PropertyGroup>
+
+</Project>
